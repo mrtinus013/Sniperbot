@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, '.')  # zorgt dat Python eerst in projectmap kijkt
+
+import imghdr  # werkt nu!
 import asyncio
 import json
 import os
